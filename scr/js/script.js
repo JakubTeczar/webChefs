@@ -13,7 +13,7 @@ const loadHTMLSequentially = async (files) => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    const htmlFiles = ['hero.html'];
+    const htmlFiles = ['hero.html', 'article.html'];
     loadHTMLSequentially(htmlFiles)
         .then(() => {
             //add app.js
