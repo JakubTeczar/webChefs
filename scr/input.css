@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Montreal ;
+    src: url(./fonts/PPNeueMontreal-Medium.otf);
+}
+@font-face {
+    font-family: GoshaSans ;
+    src: url(./fonts/PPGoshaSans-Bold.otf);
+}
+html{
+    font-family:Montreal;
+}
+b{
+    font-family:GoshaSans;
+}
+@keyframes expandHeight {
+    0% {
+        opacity: 1;
+        height: 0px;
+    }
+    70% {opacity: 1;}
+    90% {
+        opacity: 0;
+        height: 100%;
+    }
+    100% {opacity: 0;}
+}
+.animate-height {
+    animation: expandHeight 2s ease-out infinite;
+}
