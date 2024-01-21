@@ -676,11 +676,6 @@ video {
   margin-right: auto;
 }
 
-.my-9 {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -1479,10 +1474,6 @@ b{
     width: 42rem;
   }
 
-  .d2xl\:w-\[40rem\] {
-    width: 40rem;
-  }
-
   .d2xl\:min-w-\[45\%\] {
     min-width: 45%;
   }
@@ -1747,10 +1738,6 @@ b{
 
   .dsm\:w-full {
     width: 100%;
-  }
-
-  .dsm\:w-0 {
-    width: 0px;
   }
 
   .dsm\:gap-x-0 {
